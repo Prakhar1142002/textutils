@@ -1,0 +1,95 @@
+.below_nav{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1.3fr 3fr;
+}
+.container1{
+    background-color: darkred;
+    height: 1000px;
+    text-align: center;
+}
+.container2{
+    background-color: darkblue;
+    height: 1000px;
+
+}
+.searchbox{
+    margin-top: 5px;
+    justify-content: center;
+    text-align: center;
+    width: 370px;
+    height: 35px;
+    border-radius: 15px;
+}
+.input-icons{
+    margin-top: 5px;
+}
+.input-icons i {
+    position: absolute;
+    margin-top: 2.3px;
+}
+
+.input-field{
+    text-align: center;
+}
+.list_contacts{
+    cursor: pointer;
+    color: white;
+}
+
+hr{
+    color: white;
+}
+
+.list_contacts :hover{
+    background-color: rgb(223, 179, 179);
+    color: white;
+}
+.list_contacts img{
+    width: 50px;
+    height: 50px;
+}
+.container2 h3{
+    text-align: center;
+    color: white;
+}
+.container2 img{
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+}
+.container2 .sub_container2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    /* margin-bottom: 10px; */
+}
+.activity{
+    float: right;
+    margin: 10px;
+    background-color: rgb(20, 189, 20);
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+}
+.msgs{
+    margin: 10px;
+    overflow: hidden;
+    padding: 10px;
+    width: 450px;
+    height: 100px;
+    background-color: rgb(209, 202, 202);
+    border-radius: 15px;
+    color: white;
+}
+.our_msgs{
+    margin: 10px;
+    float: right;
+    padding: 10px;
+    width: 450px;
+    height: 70px;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+}
