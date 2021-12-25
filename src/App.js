@@ -9,6 +9,7 @@ import Homepage from './Homepage';
 import Chat from './Chat';
 import Profile from './Profile';
 import Interest from './Interest';
+import NewsAPI from './NewsAPI';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/interest" element={<Interest/>} />
+          <Route path="/news" element={<NewsAPI/>} />
         </Routes>
       </Router>
     </>
